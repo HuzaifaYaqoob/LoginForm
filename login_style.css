@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    color: #bebebe;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.zeevhy_log{
+    width: 300px;
+    height: 500px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 5px #afafaf ,
+                -4px -4px 5px #e4e4e4;
+    margin: auto;
+    text-align: center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+
+}
+.header > .logo{
+    width: 100%;
+    margin: 30px auto 0px auto;
+}
+/* .hash_tag{
+    text-transform: uppercase;
+}
+.login_heading{
+    text-transform: uppercase;
+} */
+.u_case{
+    text-transform: uppercase;
+}
+.login_forms{
+    margin-top: 10px;
+    display: flex;   
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.form_div{
+    margin-bottom: 25px;
+    border-radius: 20px;
+    box-shadow: inset 3px 3px 4px #cecece ,
+                inset -3px -3px 4px #f1f1f1;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+input{
+    border: none;
+    outline: none;
+    background: transparent !important;
+    padding: 10px 20px 10px 20px;
+    font-size: 17px;
+}
+
+.btn{
+    padding: 20px;
+}
+.login_btn{
+    width: 100%;
+    height: 40px;
+    border: none;
+    box-shadow: 3px 3px 4px #bdbdbd;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #42A5F5;
+    outline: none;
+    transition: 1s;
+}
+.login_btn:hover{
+    background-color: #873c3c;
+}
+.mt-10{
+    margin-top: 10px;
+}
+
+a{
+    margin-top: 10px;
+    color: #bebebe;
+    text-decoration: none;
+}
